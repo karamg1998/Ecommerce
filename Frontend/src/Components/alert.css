@@ -1,0 +1,254 @@
+.alert {
+    position: inherit;
+    float: right;
+    padding: 16px;
+    background-color: rgb(28, 117, 10);
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 2%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alert2 {
+    float: right;
+    padding: 16px;
+    background-color: rgb(230, 17, 17);
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 2%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#forgot {
+    border: 1px solid rgb(228, 92, 92);
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: bold;
+    color: rgb(228, 92, 92);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#forgot:hover {
+    border: 1px solid rgb(252, 4, 4);
+    color: rgb(250, 4, 4);
+}
+
+.fp {
+    margin-left: -57%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.forgotblock {
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 12px;
+    box-shadow: 20px 20px 60px rgb(54, 54, 54), inset -20px -20px 60px rgb(192, 192, 192);
+}
+
+.email {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.phone {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.inEmail,
+.inPhone {
+    width: 50%;
+    border: 2px solid rgb(130, 170, 185);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.inEmail:hover,
+.inPhone:hover {
+    border: 2px solid rgb(11, 179, 240);
+}
+
+.SuccessForgot {
+    border: 2px solid skyblue;
+    background-color: white;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.SuccessForgot:hover {
+    border: 2px solid rgb(48, 188, 243);
+}
+
+.main-h {
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    padding: 4px;
+}
+
+.search-box {
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.search-box {
+    width: 30rem;
+    padding: 8px;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid rgb(91, 155, 167)
+}
+
+.search-box:hover {
+    border: 2px solid rgb(8, 201, 235)
+}
+
+.add-div {
+    background-color: rgb(236, 234, 234);
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.user {
+    background-color: rgb(236, 234, 234);
+    float: right;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.order
+{
+    border: none;
+    background-color: rgb(236, 234, 234);
+}
+.user-l,
+.user-b {
+    background-color: rgb(236, 234, 234);
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.user-detail {
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgb(54, 54, 54), inset -2px -2px 10px rgb(192, 192, 192);
+}
+
+.edit {
+    margin-left: 43%;
+    border: 2px solid skyblue;
+    background-color: white;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.edit:hover {
+    border: 2px solid rgb(48, 188, 243);
+}
+
+.add-prod {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(236, 234, 234);
+}
+
+.add-form {
+    box-shadow: 2px 2px 10px rgb(54, 54, 54), inset -2px -2px 10px rgb(192, 192, 192);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.prod {
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black, inset -2px -2px 10px white;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
+.buy {
+    padding: 6px;
+    border: 2px solid rgb(75, 190, 75);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:hover.buy {
+    background-color: rgb(75, 190, 75);
+}
+
+.addtocart {
+    float: right;
+    padding: 6px;
+    border: 2px solid rgb(198, 201, 55);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:hover.addtocart {
+    background-color: rgb(198, 201, 55);
+}
+.cart-prod-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.cart-prod{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black, inset -2px -2px 10px white;
+}
+.cart-details{
+   display: flex;
+}
+.edit{
+    float: right;
+}
+.order{
+    cursor: pointer;
+}
+.total-container
+{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
